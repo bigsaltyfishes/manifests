@@ -21,6 +21,7 @@
 
     <!-- Helper scripts -->
     <project name="tools_extract-utils" path="tools/extract-utils" remote="mod"/>
+    <project name="prebuilts_extract-tools" path="prebuilts/extract-tools" remote="mod"/>
 
     <!-- SELinux -->
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="mod" />
