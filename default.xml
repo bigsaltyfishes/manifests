@@ -1105,4 +1105,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Import our manifest -->
+  <include name="snippets/remove.xml"/>
+  <include name="snippets/yuyu-mods.xml"/>
+
 </manifest>
