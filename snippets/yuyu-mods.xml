@@ -19,6 +19,9 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- SELinux -->
+    <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="mod" />
+
     <!-- prebuilts -->
     <project path="prebuilts/tools-aosp" name="prebuilts_tools-aosp" remote="mod" />
 
