@@ -23,6 +23,8 @@
     </project>
 
     <!-- Frameworks -->
+    <project name="frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="mod"/>
+    <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="mod"/>
     <project name="frameworks_native" path="frameworks/native" remote="mod"/>
 
     <!-- Helper scripts -->
