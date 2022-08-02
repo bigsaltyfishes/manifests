@@ -4,7 +4,7 @@
           fetch="https://github.com/YuyukoAOSPMod" 
           revision="12.1" />
 
-    <!-- build -->
+    <!-- Build System -->
     <project path="build/make" name="build" groups="pdk" remote="mod" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -26,10 +26,13 @@
     <!-- SELinux -->
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="mod" />
 
-    <!-- prebuilts -->
+    <!-- Prebuilts -->
     <project path="prebuilts/tools-aosp" name="prebuilts_tools-aosp" remote="mod" />
 
-    <!-- vendor -->
+    <!-- Packages -->
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mod" />
+
+    <!-- Vendor -->
     <project path="vendor/aosp" name="vendor_aosp" remote="mod" />
 
 </manifest>
