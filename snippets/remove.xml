@@ -79,6 +79,9 @@
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
 
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/native" />
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
 
