@@ -4,6 +4,9 @@
           fetch="https://github.com/YuyukoAOSPMod" 
           revision="12.1" />
 
+    <!-- Manifests -->
+    <project name="manifests" path="manifests" remote="mod"/>
+
     <!-- Build System -->
     <project path="build/make" name="build" groups="pdk" remote="mod" >
         <copyfile src="core/root.mk" dest="Makefile" />
