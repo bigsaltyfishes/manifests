@@ -38,6 +38,7 @@
     <project path="prebuilts/tools-aosp" name="prebuilts_tools-aosp" remote="mod" />
 
     <!-- Packages -->
+    <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="mod" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="mod" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mod" />
 
