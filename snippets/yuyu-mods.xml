@@ -22,6 +22,12 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Devices -->
+    <project name="device_xiaomi_chopin" path="device/xiaomi/chopin" remote="mod" />
+    <project name="device_xiaomi_chopin-prebuilts" path="device/xiaomi/chopin-prebuilts" remote="mod" />
+    <project name="kernel_xiaomi_chopin" path="kernel/xiaomi/chopin" remote="mod" />
+    <project name="vendor_xiaomi_chopin" path="vendor/xiaomi/chopin" remote="mod" />
+
     <!-- Frameworks -->
     <project name="frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="mod"/>
     <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="mod"/>
