@@ -22,11 +22,19 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Recovery -->
+    <project name="bootable_recovery" path="bootable/recovery" remote="mod" />
+
     <!-- Devices -->
     <project name="device_xiaomi_chopin" path="device/xiaomi/chopin" remote="mod" />
     <project name="device_xiaomi_chopin-prebuilts" path="device/xiaomi/chopin-prebuilts" remote="mod" />
     <project name="kernel_xiaomi_chopin" path="kernel/xiaomi/chopin" remote="mod" />
     <project name="vendor_xiaomi_chopin" path="vendor/xiaomi/chopin" remote="mod" />
+
+    <!-- External -->
+    <project name="external_exfatprogs" path="external/exfatprogs" remote="mod" />
+    <project name="external_gptfdisk" path="external/gptfdisk" remote="mod" />
+    <project name="external_mksh" path="external/mksh" remote="mod" />
 
     <!-- Frameworks -->
     <project name="frameworks_base" path="frameworks/base" remote="mod"/>
@@ -40,6 +48,9 @@
 
     <!-- SELinux -->
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="mod" />
+
+    <!-- System -->
+    <project name="system_core" path="system/core" remote="mod" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-aosp" name="prebuilts_tools-aosp" remote="mod" />

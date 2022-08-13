@@ -5,6 +5,9 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
+  <!-- Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -64,6 +67,8 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External -->
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
   <remove-project name="platform/external/google-fonts/barlow" />
   <remove-project name="platform/external/google-fonts/karla" />
@@ -84,6 +89,9 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony"/>
   <remove-project name="platform/frameworks/native" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/CarrierConfig" />
