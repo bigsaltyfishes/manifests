@@ -19,6 +19,9 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Helper scripts -->
+    <project name="tools_extract-utils" path="tools/extract-utils" remote="mod"/>
+
     <!-- prebuilts -->
     <project path="prebuilts/tools-aosp" name="prebuilts_tools-aosp" remote="mod" />
 
