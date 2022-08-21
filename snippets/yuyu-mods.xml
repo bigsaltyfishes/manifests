@@ -32,6 +32,7 @@
     <project name="prebuilts_extract-tools" path="prebuilts/extract-tools" remote="mod"/>
 
     <!-- Packages -->
+    <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="mod" />
     <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="mod" />
     <project name="packages_apps_Settings" path="packages/apps/Settings" remote="mod" />
     <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="mod" />
