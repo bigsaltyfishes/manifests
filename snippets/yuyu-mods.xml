@@ -34,6 +34,7 @@
     <!-- Packages -->
     <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="mod" />
     <project name="packages_apps_Settings" path="packages/apps/Settings" remote="mod" />
+    <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="mod" />
 
     <!-- Prebuilts -->
     <project name="prebuilts_tools-aosp" path="prebuilts/tools-aosp" remote="mod" />
