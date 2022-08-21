@@ -4,7 +4,7 @@
           fetch="https://github.com/YuyukoAOSPMod"
           revision="13" />
 
-    <!-- build -->
+    <!-- Build System -->
     <project path="build/make" name="build" groups="pdk" remote="mod" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -23,10 +23,13 @@
     <project name="tools_extract-utils" path="tools/extract-utils" remote="mod"/>
     <project name="prebuilts_extract-tools" path="prebuilts/extract-tools" remote="mod"/>
 
-    <!-- prebuilts -->
-    <project path="prebuilts/tools-aosp" name="prebuilts_tools-aosp" remote="mod" />
+    <!-- Packages -->
+    <project name="packages_apps_Settings" path="packages/apps/Settings" remote="mod" />
 
-    <!-- vendor -->
-    <project path="vendor/aosp" name="vendor_aosp" remote="mod" />
+    <!-- Prebuilts -->
+    <project name="prebuilts_tools-aosp" path="prebuilts/tools-aosp" remote="mod" />
+
+    <!-- Vendor -->
+    <project name="vendor_aosp" path="vendor/aosp" remote="mod" />
 
 </manifest>
