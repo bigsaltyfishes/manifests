@@ -22,6 +22,14 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Recovery -->
+    <project name="bootable_recovery" path="bootable/recovery" remote="mod" />
+
+    <!-- External -->
+    <project name="external_exfatprogs" path="external/exfatprogs" remote="mod" />
+    <project name="external_gptfdisk" path="external/gptfdisk" remote="mod" />
+    <project name="external_mksh" path="external/mksh" remote="mod" />
+
     <!-- Frameworks -->
     <project name="frameworks_base" path="frameworks/base" remote="mod"/>
     <project name="frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="mod"/>
@@ -41,6 +49,9 @@
 
     <!-- Prebuilts -->
     <project name="prebuilts_tools-aosp" path="prebuilts/tools-aosp" remote="mod" />
+
+    <!-- System -->
+    <project name="system_core" path="system/core" remote="mod" />
 
     <!-- Vendor -->
     <project name="vendor_aosp" path="vendor/aosp" remote="mod" />
