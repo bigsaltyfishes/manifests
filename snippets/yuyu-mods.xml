@@ -46,9 +46,11 @@
     <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="mod" />
     <project name="packages_apps_Settings" path="packages/apps/Settings" remote="mod" />
     <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="mod" />
+    <project name="packages_resources_devicesettings" path="packages/resources/devicesettings" remote="mod" />
 
     <!-- Prebuilts -->
     <project name="prebuilts_tools-aosp" path="prebuilts/tools-aosp" remote="mod" />
+    <project name="prebuilts_exthmuix" path="prebuilts/exthmuix" remote="mod" />
 
     <!-- System -->
     <project name="system_core" path="system/core" remote="mod" />
