@@ -53,17 +53,17 @@
     <project name="system_core" path="system/core" remote="mod" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/tools-aosp" name="prebuilts_tools-aosp" remote="mod" />
+    <project name="prebuilts_tools-aosp" path="prebuilts/tools-aosp" remote="mod" />
     <project name="prebuilts_exthmuix" path="prebuilts/exthmuix" remote="mod" />
 
     <!-- Packages -->
-    <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="mod" />
-    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="mod" />
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mod" />
+    <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="mod" />
+    <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="mod" />
+    <project name="packages_apps_Settings" path="packages/apps/Settings" remote="mod" />
     <project name="packages_resources_devicesettings" path="packages/resources/devicesettings" remote="mod" />
 
     <!-- Vendor -->
-    <project path="vendor/aosp" name="vendor_aosp" remote="mod" />
-    <project path="vendor/lawnchair" name="vendor_lawnchair" remote="mod" />
+    <project name="vendor_aosp" path="vendor/aosp" remote="mod" />
+    <project name="vendor_lawnchair" path="vendor/lawnchair" remote="mod" />
 
 </manifest>
