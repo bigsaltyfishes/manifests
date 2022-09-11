@@ -92,6 +92,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/update_engine"/>
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/CarrierConfig" />
