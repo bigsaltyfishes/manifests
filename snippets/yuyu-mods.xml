@@ -54,6 +54,7 @@
 
     <!-- Prebuilts -->
     <project path="prebuilts/tools-aosp" name="prebuilts_tools-aosp" remote="mod" />
+    <project name="prebuilts_exthmuix" path="prebuilts/exthmuix" remote="mod" />
 
     <!-- Packages -->
     <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="mod" />
