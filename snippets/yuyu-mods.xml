@@ -62,5 +62,6 @@
 
     <!-- Vendor -->
     <project path="vendor/aosp" name="vendor_aosp" remote="mod" />
+    <project path="vendor/lawnchair" name="vendor_lawnchair" remote="mod" />
 
 </manifest>
