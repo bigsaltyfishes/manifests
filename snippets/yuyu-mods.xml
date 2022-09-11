@@ -60,6 +60,7 @@
     <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="mod" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="mod" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mod" />
+    <project name="packages_resources_devicesettings" path="packages/resources/devicesettings" remote="mod" />
 
     <!-- Vendor -->
     <project path="vendor/aosp" name="vendor_aosp" remote="mod" />
