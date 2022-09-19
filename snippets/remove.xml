@@ -86,10 +86,17 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/frameworks/opt/telephony"/>
+  <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/native" />
 
   <!-- System -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/system/core" />
 
   <!-- Packages -->

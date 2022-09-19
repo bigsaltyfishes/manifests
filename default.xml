@@ -1171,5 +1171,6 @@
   <!-- Import our manifest -->
   <include name="snippets/remove.xml"/>
   <include name="snippets/yuyu-mods.xml"/>
+  <include name="snippets/lineage.xml"/>
   
 </manifest>
